@@ -1,118 +1,185 @@
-    /*....#1....*/
-    
-    .cinema-body {
-        background-image: url("../img/google.jpg");
-        width: 100%;
-        height: 100%;
-    }
-    /*....#2....*/
-    
-    .navbar {
-        height: 10%;
-        background-color: rgba(0, 255, 245, 0.55);
-    }
-    
-    .logo-img {
-        height: 100%;
-        width: 7%;
-    }
-    /*....#3 JUMBOTRON....*/
-    
-    .jumbotron {
-        background-image: url("../img/planeta.jpg");
-        min-height: 500px;
-        margin-bottom: 0px;
-        border-bottom-left-radius: none;
-    }
-    /*....#5  Preguntar por que EL TITULO
+/*....#1....*/
+
+.cinema-body {
+    background-image: url("../img/google.jpg");
+    width: 100%;
+    height: 100%;
+}
+
+
+/*....#2....*/
+
+.navbar {
+    height: 10%;
+    background-color: rgba(0, 255, 245, 0.55);
+}
+
+.logo-img {
+    height: 100%;
+    width: 7%;
+}
+
+
+/*....#3 JUMBOTRON....*/
+
+.jumbotron {
+    background-image: url("../img/planeta.jpg");
+    min-height: 500px;
+    margin-bottom: 0px;
+    border-bottom-left-radius: none;
+}
+
+
+/*....#5  Preguntar por que EL TITULO
     se iba para ARRIBA y tuve darle margin....*/
-    
-    .welcome-title {
-        color: white;
-        margin-right: 10px;
-        margin-top: 10%;
-    }
-    /*....#6 LOGO PLANETAVIP....*/
-    
-    .jumbotron-img {
-        height: 150px;
-        width: 200px;
-        margin-top: 20px;
-    }
-    /*....#7 Texto medio  Preguntar que es
+
+.welcome-title {
+    color: white;
+    margin-right: 10px;
+    margin-top: 10%;
+}
+
+
+/*....#6 LOGO PLANETAVIP....*/
+
+.jumbotron-img {
+    height: 150px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+
+/*....#7 Texto medio  Preguntar que es
     "title"....*/
-    
-    .jumbotron-text {
-        font-size: 16px;
-        color: white;
-        margin-top: 20px;
+
+.jumbotron-text {
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+}
+
+
+/*....#8 Redes....*/
+
+.redes-sociales {
+    margin-top: 20px;
+}
+
+.img-social {
+    height: 40px;
+    width: 40px;
+}
+
+
+/*....#9 Peliculas en Cartelera....*/
+
+.titulo-cartelera {
+    opacity: 0.95;
+}
+
+.titulo-text {
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    padding: 10px;
+}
+
+
+/*.....#10 CARTELERA PRINCIPAL....*/
+
+.movies-row {
+    background-color: blueviolet;
+    opacity: 0.8;
+}
+
+.movie-title {
+    background-color: rgb(122, 142, 172);
+    color: white !important;
+}
+
+.img-movies {
+    height: 260px;
+    padding: 6px;
+    margin-top: 22px;
+}
+
+
+/*..... # 11 TITULO CARTELERA....*/
+
+.left-column {
+    border-right: 1px dashed yellow;
+    padding-right: 0px;
+}
+
+
+/*..... # 12 ....*/
+
+
+/*..... # 13 ....*/
+
+
+/*..... # 14 ....*/
+
+
+/*..MEDIA QUERY..*/
+
+@media screen and (max-width:770px) {
+    .right-column {
+        display: none;
     }
-    /*....#8 Redes....*/
-    
-    .redes-sociales {
-        margin-top: 20px;
+    h2 {
+        font-size: 22px;
     }
-    
-    .img-social {
-        height: 40px;
-        width: 40px;
-    }
-    /*....#9 Peliculas en Cartelera....*/
-    
     .titulo-cartelera {
-        opacity: 0.95;
+        font-size: 15px;
     }
-    
-    .titulo-text {
-        font-size: 18px;
-        font-weight: bolder;
-        color: white;
-        padding: 10px;
+    .jumbotron {
+        min-height: 400px;
     }
-    /*.....#10 CARTELERA PRINCIPAL....*/
-    
-    .movies-row {
-        background-color: blueviolet;
-        opacity: 0.8;
+    .jumbotron-img {
+        margin-top: 20px;
     }
-    
-    .movie-title {
-        background-color: rgb(122, 142, 172);
-        color: white !important;
-    }
-    
-    .img-movies {
-        height: 260px;
-        padding: 6px;
-        margin-top: 22px;
-    }
-    /*..... # 11 TITULO CARTELERA....*/
-    
-    .left-column {
-        border-right: 1px dashed yellow;
-        padding-right: 0px;
-    }
-    /*..... # 12 ....*/
-    /*..... # 13 ....*/
-    /*..... # 14 ....*/
-    
-    .services-text {}
-    /*..MEDIA QUERY..*/
-    
-    @media screen and (max-width:770px) {
-        .right-column {
-            display: none;
-        }
-        h2 {
-            font-size: 22px;
-        }
-        .titulo-cartelera {
-            font-size: 15px;
-        }
-        .jumbotron {
-            min-height: 400px;
-        }
-        .jumbotron-img {
-            margin-top: 20px;
-        }
-    }
+}
+
+
+/*.....1 Leccion 4.....*/
+
+.user_data {
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: white;
+}
+
+
+/*.....2 Leccion 4.....*/
+
+.input-element {
+    width: 100%;
+    height: 28px;
+    padding: 10px;
+    color: white;
+    background-color: white;
+    opacity: 0.4;
+    border-radius: 4px;
+    border: none;
+    margin-top: 5px;
+}
+
+
+/*.....3 Leccion 4.....*/
+
+.label-class {
+    color: white;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+
+/*.....5 Leccion 4.....*/
+
+.btn-save {
+    width: 40%;
+    background-color: orange;
+    opacity: 0.95;
+    color: white;
+}
